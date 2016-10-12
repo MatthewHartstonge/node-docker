@@ -24,7 +24,9 @@ docker run -it \
 ```
 
 # Development
-Each node/docker version is split out into a separate branch.
+Each node/docker version is split out into a separate branch. Please feel free 
+to add Pull Requests to add the different versions you use as a token of thanks
+and also to give back to the community. 
 
 ## Node build tools
 For those that are using anything that requires node-gyp (SASS, argon2 e.t.c.)
