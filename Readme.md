@@ -93,7 +93,7 @@ For example, using Mocha, in package.json:
 ...
 ```
 
-Then in your .drone, .travis, .jenkinsfile, .whatever add: 
+Then in your .drone, .jenkinsfile, .whatever add:
 
 ```yml
 script:
