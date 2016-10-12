@@ -1,6 +1,6 @@
 FROM node:6-slim
 
-ENV DOCKER_VERSION="1.12.2-0~jessie"
+ENV DOCKER_VERSION="1.11.0-0~jessie"
 # Valid versions
 # 1.12.2-0~jessie
 # 1.12.1-0~jessie
