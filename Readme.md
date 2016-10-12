@@ -18,7 +18,7 @@ usable as a tool in a self-contained private CI/CD setting.
 - `node6-docker1.10.1` [(node6-docker1.10.1/Dockerfile)](https://github.com/MatthewHartstonge/node-docker/blob/node6-docker1.10.1/Dockerfile)
 - `node6-docker1.10.0` [(node6-docker1.10.0/Dockerfile)](https://github.com/MatthewHartstonge/node-docker/blob/node6-docker1.10.0/Dockerfile)
 - `node6-docker1.9.1` [(node6-docker1.9.1/Dockerfile)](https://github.com/MatthewHartstonge/node-docker/blob/node6-docker1.9.1/Dockerfile)
-- `node6-docker1.9.0`
+- `node6-docker1.9.0`[(node6-docker1.9.0/Dockerfile)](https://github.com/MatthewHartstonge/node-docker/blob/node6-docker1.9.0/Dockerfile)
 
 ## Quickstart
 Since this image is based on dockerhub's [node](https://hub.docker.com/_/node/),
