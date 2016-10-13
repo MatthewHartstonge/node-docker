@@ -1,4 +1,5 @@
 FROM node:6-slim
+MAINTAINER Matthew Hartstonge <matt@mykro.co.nz>
 
 ENV DOCKER_VERSION="1.12.2-0~jessie"
 # Valid versions

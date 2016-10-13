@@ -46,9 +46,9 @@ and also to give back to the community.
 For those that are using anything that requires node-gyp (SASS, argon2 e.t.c.)
 you will need to install the required build tools. 
 
-#### dockerfile
+#### Dockerfile
 ```
-FROM matthewhartstonge/node-docker:node6-docker1.12
+FROM matthewhartstonge/node-docker:latest
 
 RUN apt-get update \
     && apt-get install \
@@ -59,7 +59,9 @@ RUN apt-get update \
     && apt-get remove --purge \
         g++ \
         make \
-        python
+        python \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*        
 ```
 
 #### CI Script
