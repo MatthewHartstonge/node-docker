@@ -44,33 +44,7 @@ and also to give back to the community.
 
 ### Node build tools
 For those that are using anything that requires node-gyp (SASS, argon2 e.t.c.)
-you will need to install the required build tools. 
-
-#### Dockerfile
-```
-FROM matthewhartstonge/node-docker:latest
-
-RUN apt-get update \
-    && apt-get install \
-        g++ \
-        make \
-        python \
-    && npm install \
-    && apt-get remove --purge \
-        g++ \
-        make \
-        python \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*        
-```
-
-#### CI Script
-```sh
-script:
-  - apt-get update && apt-get install g++ make python
-  - npm install
-  - npm test
-```
+the build tools (g++, make and python) are now included.
 
 ## Deployment
 Simply pull your required version from dockerhub
