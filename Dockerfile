@@ -1,12 +1,12 @@
 FROM node:6-slim
 MAINTAINER Matthew Hartstonge <matt@mykro.co.nz>
 
-ENV DOCKER_VERSION="1.13.0-0~jessie"
+ENV DOCKER_VERSION="1.13.0-0~debian-jessie"
 # Valid versions
-# 1.13.0-0~jessie
-# 1.12.6-0~jessie
-# 1.12.5-0~jessie
-# 1.12.4-0~jessie
+# 1.13.0-0~debian-jessie
+# 1.12.6-0~debian-jessie
+# 1.12.5-0~debian-jessie
+# 1.12.4-0~debian-jessie
 # 1.12.3-0~jessie
 # 1.12.2-0~jessie
 # 1.12.1-0~jessie
