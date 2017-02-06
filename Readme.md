@@ -7,7 +7,8 @@ Please note: This container does not set out to be secure, it sets out to be
 usable as a tool in a self-contained private CI/CD setting.
 
 ## Supported tags
-- `latest`, `node6-docker1.12.3` [(node6-docker1.12.3/Dockerfile)](https://github.com/MatthewHartstonge/node-docker/blob/node6-docker1.12.3/Dockerfile)
+- `latest`, `node6-docker1.12.4` [(node6-docker1.12.4/Dockerfile)](https://github.com/MatthewHartstonge/node-docker/blob/node6-docker1.12.4/Dockerfile)
+- `node6-docker1.12.3` [(node6-docker1.12.3/Dockerfile)](https://github.com/MatthewHartstonge/node-docker/blob/node6-docker1.12.3/Dockerfile)
 - `node6-docker1.12.2` [(node6-docker1.12.2/Dockerfile)](https://github.com/MatthewHartstonge/node-docker/blob/node6-docker1.12.2/Dockerfile)
 - `node6-docker1.12.1` [(node6-docker1.12.1/Dockerfile)](https://github.com/MatthewHartstonge/node-docker/blob/node6-docker1.12.1/Dockerfile)
 - `node6-docker1.12.0` [(node6-docker1.12.0/Dockerfile)](https://github.com/MatthewHartstonge/node-docker/blob/node6-docker1.12.0/Dockerfile)
