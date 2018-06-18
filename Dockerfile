@@ -1,4 +1,4 @@
-FROM node:7-slim
+FROM node:8-slim
 MAINTAINER Matthew Hartstonge <matt@mykro.co.nz>
 
 ENV DOCKER_VERSION="1.13.0-0~debian-jessie"
